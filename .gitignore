@@ -5,16 +5,13 @@
 *.slo
 *.lo
 *.o
-*.obj
 
 # Precompiled Headers
 *.gch
-*.pch
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -30,3 +27,51 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.log
+*.tlog/
+*.idb
+*.pdb
+*.ipch
+*.ilk
+*.exp
+*.obj
+*.iobj
+*.pch
+*.res
+*.manifest
+*.lib
+*.dll
+
+# Build directory (Debug/Release)
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+[Rr]eleases/
+
+# Other temp file
+*.cache
+*.tmp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# System files
+.DS_Store (macOS)
+Thumbs.db (Windows)
