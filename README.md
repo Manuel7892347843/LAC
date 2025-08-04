@@ -36,8 +36,8 @@ A C++ console application designed to efficiently analyze and process structured
     - `cmake .. -G "Visual Studio 17 2022"`
     - `start LAC.sln`
 3. Change the project configuration from `ALL_BUILD` to `LAC`
-2. Choose `Debug` or `Release` configuration.
-3. Build the project with `Ctrl+Shift+B` or run with `F5`.
+4. Choose `Debug` or `Release` configuration.
+5. Build the project with `Ctrl+Shift+B` or run with `F5`.
 
 ---
 
