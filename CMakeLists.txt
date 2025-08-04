@@ -22,6 +22,8 @@ endforeach()
 
 add_executable(LAC ${SOURCES})
 
+set(CMAKE_DEFAULT_TARGET "LAC")
+
 target_include_directories(LAC PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/File di intestazione"
 )
