@@ -30,11 +30,7 @@ A C++ console application designed to efficiently analyze and process structured
 ## ⚙️ Building the Project
 
 1. Download or Clone the project in your device
-2. Open the Terminal and execute this lines of code:
-    - `cd path of the project in your device`
-    - `mkdir build && cd build`
-    - `cmake .. -G "Visual Studio 17 2022"`
-    - `start LAC.sln`
+2. Open the extracted or cloned folder and execute the `build.bat`
 3. Change the project configuration from `ALL_BUILD` to `LAC`
 4. Choose `Debug` or `Release` configuration.
 5. Build the project with `Ctrl+Shift+B` or run with `F5`.
